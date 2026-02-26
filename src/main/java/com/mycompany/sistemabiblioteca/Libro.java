@@ -12,5 +12,15 @@ public class Libro {
     private String genero;
     private int anioPublicacion;
     private boolean disponible;
+
+    public Libro(String isbn, String titulo, String autor, String genero, int anioPublicacion, boolean disponible) {
+        this.isbn = isbn;
+        this.titulo = titulo;
+        this.autor = autor;
+        this.genero = genero;
+        this.anioPublicacion = anioPublicacion;
+        this.disponible = disponible;
+    }
+    
     
 }
